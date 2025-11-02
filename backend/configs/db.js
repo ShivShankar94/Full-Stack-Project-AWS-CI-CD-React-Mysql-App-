@@ -1,7 +1,7 @@
 const mysql = require('mysql2');
 require('dotenv').config();
 
-const host = process.env.DB_HOST || 'dev-db-instance.cdbmlufgqkjd.ap-south-1.rds.amazonaws.com';
+const host = process.env.DB_HOST || 'dev-db-instance.cl0eywi6m4nj.ap-south-1.rds.amazonaws.com';
 const port = process.env.DB_PORT || '3306';
 const user = process.env.DB_USER || 'appuser';
 const password = process.env.DB_PASSWORD || 'learnIT02#';
@@ -16,3 +16,4 @@ const db = mysql.createConnection({
 });
 
 module.exports = db;
+
