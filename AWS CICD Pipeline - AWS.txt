@@ -283,7 +283,7 @@ Navigate to Systems Manager --> Parameter stores
 	Tier = standard
 	Type = string
 	Data type = text
-	Value = dev-db-instance.cdbmlufgqkjd.ap-south-1.rds.amazonaws.com
+	Value = dev-db-instance.cl0eywi6m4nj.ap-south-1.rds.amazonaws.com
 
 	create parameter
  	Name = /nodeapp/db/name
@@ -458,5 +458,6 @@ Navigate to CodePipeline --> Create Pipeline
 
 
 Setup CloudFront and R53
+
 
 
